@@ -1,0 +1,88 @@
+{
+  "info": {
+    "_postman_id": "56403ddf-56fd-416c-bea6-d0aa18723eb5",
+    "name": "Sistema de vendas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58448687",
+    "_collection_link": "https://go.postman.co/collection/58448687-56403ddf-56fd-416c-bea6-d0aa18723eb5?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "item": [
+        {
+          "name": "Clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Clientes - ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Produtos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "PUT",
+      "item": []
+    },
+    {
+      "name": "DELETE",
+      "item": []
+    },
+    {
+      "name": "PACTH",
+      "item": []
+    },
+    {
+      "name": "POST",
+      "item": [
+        {
+          "name": "Clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
