@@ -42,20 +42,78 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Pedidos - ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
         }
       ]
     },
     {
       "name": "PUT",
-      "item": []
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
     },
     {
       "name": "DELETE",
-      "item": []
+      "item": [
+        {
+          "name": "Pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
     },
     {
       "name": "PACTH",
-      "item": []
+      "item": [
+        {
+          "name": "Pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
     },
     {
       "name": "POST",
@@ -72,7 +130,29 @@
           "response": []
         },
         {
+          "name": "Produtos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
           "name": "Pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Itens pedidos",
           "request": {
             "method": "GET",
             "header": [],
