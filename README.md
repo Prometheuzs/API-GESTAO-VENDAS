@@ -15,10 +15,11 @@ Sistema de gestão de vendas expandido (Clientes, Produtos, Usuários e Pedidos)
 
 ## Configuração do Banco de Dados
 
-1. Execute o dump inicial do banco de dados (por exemplo, `dump-sistema_clientes-202609252138.sql`) para criar o banco e as tabelas `clientes` e `produtos`.
-2. Em seguida, execute o script localizado em `api-clientes/script_banco.sql` no seu banco MySQL. Esse script irá:
-   - Criar as novas tabelas: `usuarios`, `pedidos` e `itens_pedido`.
-   - Inserir dados iniciais para testes.
+1. Execute o script localizado em `api-clientes/script_banco.sql` na sua ferramenta de banco de dados MySQL (ou similar).
+2. Esse script contém a estrutura completa e atualizada e irá:
+   - Criar o banco de dados `sistema_clientes`.
+   - Criar todas as tabelas necessárias: `clientes`, `produtos`, `usuarios`, `pedidos` e `itens_pedido`.
+   - Inserir os dados iniciais essenciais para testes.
 
 ## Rodando a Aplicação
 
